@@ -37,29 +37,36 @@ import pandas as pd data=pd.read_csv("SAMPLEIDS.csv") data
 <img width="1025" height="236" alt="Screenshot 2026-05-21 092740" src="https://github.com/user-attachments/assets/a4db8cb9-1347-4b3f-8a7a-47758a5711eb" />
 
 ``` data.isnull() ```
+
 <img width="881" height="804" alt="Screenshot 2026-05-21 093142" src="https://github.com/user-attachments/assets/9bea8185-09cc-4593-b3bb-4ba6d742b481" />
 
 ``` data.isnull().sum() ``` 
+
 <img width="161" height="331" alt="Screenshot 2026-05-21 093240" src="https://github.com/user-attachments/assets/c8175e10-fecd-4b27-a675-e6158f34ac22" />
 
  ``` data.isnull().any() ``` 
+ 
  <img width="192" height="334" alt="Screenshot 2026-05-21 093413" src="https://github.com/user-attachments/assets/156522cd-8bec-4fe7-a0e3-5d81bc077aa7" />
 
  ``` data.dropna() ```
+ 
  <img width="988" height="484" alt="Screenshot 2026-05-21 093535" src="https://github.com/user-attachments/assets/74d52f62-fdf7-47fc-b6c7-f6942269ef9e" />
 
  ``` data.fillna(0) ```
+ 
  <img width="995" height="758" alt="Screenshot 2026-05-21 093640" src="https://github.com/user-attachments/assets/f14b8eea-4665-4511-9215-5718d2da7676" />
 
 ``` data.fillna(method='ffill') ```
+
 <img width="996" height="780" alt="Screenshot 2026-05-21 093742" src="https://github.com/user-attachments/assets/b398a3dd-18ef-48e2-a685-127d8cae6b7f" />
 
 ``` data.fillna(method='bfill') ```
+
 <img width="999" height="756" alt="image" src="https://github.com/user-attachments/assets/89660d19-31b1-430c-8ca7-96f003178857" />
 
  ``` data.fillna({'GENDER':'MALE','NAME':'SRI','ADDRESS':'POONAMALEE','M1':98,'M2':87,'M3':76,'M4':92,'TOTAL':305,'AVG':89.999999}) ```
  
-![Uploading Screenshot 2026-05-21 095018.png…]()
 
+``` IQR(Inter Quartile Range) import pandas as pd ir=pd.read_csv("iris.csv") ir ```
 
 # Result
