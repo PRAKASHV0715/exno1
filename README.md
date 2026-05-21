@@ -58,6 +58,8 @@ import pandas as pd data=pd.read_csv("SAMPLEIDS.csv") data
 <img width="999" height="756" alt="image" src="https://github.com/user-attachments/assets/89660d19-31b1-430c-8ca7-96f003178857" />
 
  ``` data.fillna({'GENDER':'MALE','NAME':'SRI','ADDRESS':'POONAMALEE','M1':98,'M2':87,'M3':76,'M4':92,'TOTAL':305,'AVG':89.999999}) ```
+ 
+![Uploading Screenshot 2026-05-21 095018.png…]()
 
 
 # Result
